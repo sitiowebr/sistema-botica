@@ -17,10 +17,7 @@ function init(){
 	            $("#idcategoria").html(r);
 	            $('#idcategoria').selectpicker('refresh');
 
-	});
-	$.post("../ajax/articulo.php?op=selectCategoria", function(r){//😀
-		$("#idcategoria").html(r);
-		$('#idcategoria').selectpicker('refresh');
+
 
 });
 	$("#imagenmuestra").hide();
@@ -191,6 +188,7 @@ function mostrar(idarticulo)
 
 		$("#idcategoria").val(data.idcategoria);
 		$('#idcategoria').selectpicker('refresh');
+		
 		$("#codigo").val(data.codigo);
 		$("#nombre").val(data.nombre);
 		$("#stock").val(data.stock);

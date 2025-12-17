@@ -262,7 +262,6 @@ else
 {
   require 'noacceso.php';
 }
-
 require 'footer.php';
 ?>
 <script type="text/javascript" src="scripts/ticket.js"></script>

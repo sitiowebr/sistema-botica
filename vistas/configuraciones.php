@@ -6,12 +6,11 @@ session_start();
   }else{
     require 'header.php';
   if($_SESSION['configuraciones']==1){
-    require_once "../modelos/Configuraciones.php";
+    require "../modelos/Configuraciones.php";
   $configuracion = new Configuraciones();
   $rspta = $configuracion->mostrar();
   $reg = $rspta->fetch_object();
-
-
+ 
 ?>
 <!-- <link rel="stylesheet" type="text/css" href="style/loading.css"> -->
 

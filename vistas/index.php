@@ -4,7 +4,7 @@
   session_start();
   
     if(isset($_SESSION['nombre'])){
-      header("Location:escritorio.php");
+      header("Location: escritorio.php");
     }else{
  ?>
 
