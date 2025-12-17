@@ -1,15 +1,15 @@
 <?php
 //Ip de la pc del servidor de la BD
-define("DB_HOST","localhost");
+define("DB_HOST","shinkansen.proxy.rlwy.net");
 
 //Nombre de la base de datos
-define("DB_NAME","soluciones_demobotica");
+define("DB_NAME","railway");
 
 //Usuario de la base de datos
 define("DB_USERNAME","root");
 
 //Contraseña del usuario de la base de datos
-define("DB_PASSWORD","");
+define("DB_PASSWORD","PfZWFIWQqEkRsHJkWIOqQeZyYXchqdKh");
 
 //Definimos la codificacion de caracteres
 define("DB_ENCODE","utf8");
